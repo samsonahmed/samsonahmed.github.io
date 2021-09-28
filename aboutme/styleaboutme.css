@@ -12,9 +12,6 @@ img{
 ul>li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-p::first-letter{
-    font-size: 30px;
-}
 .first-name,.middle-name,.last-name{
     font-style: oblique;
     font: bold;
