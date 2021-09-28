@@ -11,6 +11,11 @@ img{
 }
 ul>li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}
+ol>li{
+    font-family: cursive;
 }
 .first-name,.middle-name,.last-name{
     font-style: oblique;
