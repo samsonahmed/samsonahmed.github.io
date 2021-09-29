@@ -13,9 +13,6 @@ em{
 li>ul{
     background-color: #FFFFA8;
 }
-pre{
-    background-color: #e3e017;
-}
 .comment-list,.process-time,.comment-list ul{
     list-style-type: none;
     padding:0;
