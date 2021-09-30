@@ -32,7 +32,6 @@ body>h1{
     border: 4px gray solid; 
     border-radius: 20px;
     position: relative;
-    border-radius: 20px;
 
 }
 .container aside{
@@ -71,7 +70,7 @@ aside dl ul {
 }
 .container > section .section-header {
     background-image: url("images/rbg.png");
-    border-top-left-radius: 28px;
+    border-top-left-radius: 18px;
     height: 85px;
     color: red;
     font-size: 60px;
@@ -129,7 +128,7 @@ section .content{
 }
 
 .validators {
-    position: fixed;
+    position:fixed;
     right: 0;
     bottom: 0;
 }
