@@ -55,8 +55,7 @@ body{
     flex-wrap: wrap;
 }
 .footer{
-    background-color: rgb(2, 70, 22);   
-    height: 150x; 
+    background-color: rgb(2, 70, 22);    
     text-align: center;
 }
 .footer> a{
