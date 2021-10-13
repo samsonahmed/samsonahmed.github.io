@@ -48,9 +48,16 @@ $(function () {
                 'top': randomNumber(100, 800)
             })
             growingTime(e,growthAmount,growthrate);
+
             $(e).click(function () {
                 $(this).hide();
             })
+            // $(e).hover(function(){
+            //     $(e).fadeTo("slow",0.4);
+            // })
+            // $(e).mouseleave(function(){
+            //     $(e).fadeTo("slow",1);
+            // })
         })
         }) 
     // for(let i=0;i<5;i++){
@@ -58,10 +65,13 @@ $(function () {
     // }
     
    
-    // $("div").each(function (id,e) {
-    //   $(e).hover(function(){
-    //       $(this).fadeTo("slow",0.4);
-    //   })
-    // })
+    $("div").not(".form").each(function (id,e) {
+      $(e).mouseenter(function(){
+          $(this).fadeTo("slow",0.4);
+      })
+      $(e).mouseleave(function(){
+          $(this).fadeTo("slow",1);
+      })
+    })
 })
 
