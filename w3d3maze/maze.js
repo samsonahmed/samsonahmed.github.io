@@ -10,13 +10,14 @@ $(function() {
             $(".boundary").addClass("youlose");
       })
       $("#maze").mouseleave(function(){
-          $(".boundary").addClass("youlose");      
+          $(".boundary").addClass("youlose");    
       })
       $("#end").mouseover(function(){
           if(start && !lost){
           alert("you won the game!");
-          preventDefault();
           location.reload(true);
+          preventDefault();
+          
           }
     })
     $("#end").mouseleave(function(){

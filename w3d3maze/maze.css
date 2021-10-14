@@ -1,7 +1,9 @@
 h1, h2 {
     text-align: center;
 }
-
+#lose{
+    color:red;
+}
 p {
     width: 600px;
     margin: 1em auto;
