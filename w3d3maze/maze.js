@@ -16,12 +16,8 @@ $(function() {
           if(start && !lost){
           alert("you won the game!");
           location.reload(true);
-          preventDefault();
-          
+          preventDefault(); 
           }
-    })
-    $("#end").mouseleave(function(){
-        
     })
     })   
 })
