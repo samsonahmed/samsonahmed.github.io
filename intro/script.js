@@ -12,9 +12,10 @@ function sendEmail(params){
      console.log("successfully sent "+response.status);
  })
  if(count>0){
-     
-    window.location="http://facebook.com/";
+    window.location="https://www.facebook.com/samson.ramato";
  }
- console.log(count);
+ else{
+document.getElementById("erro").style.color = "red";
  console.log("samson at the end");
+ }
 }
