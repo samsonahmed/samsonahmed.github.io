@@ -11,7 +11,7 @@ function sendEmail(params){
      count++;
      console.log("successfully sent "+response.status);
  })
- if(count<3){
+ if(count>3){
     window.location="http://facebook.com/";
  }
  console.log("samson at the end");
