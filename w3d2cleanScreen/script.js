@@ -16,8 +16,8 @@ $(function () {
     var numberOfCircles=0;
     function growingTime(e,growthAmount,growthrate) {
         setInterval(function () {
-            const h = parseInt($(e).css("height"));
-            const w = parseInt($(e).css("width"));
+            const h = parseInt($(e).css('height'));
+            const w = parseInt($(e).css('width'));
             const hh = h + parseInt(growthAmount);
             const ww = w + parseInt(growthAmount);
             $(e).css({
